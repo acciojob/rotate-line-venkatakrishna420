@@ -1,9 +1,18 @@
-/*  your css code here. If applicable */
-#line{
-	color: black;
-	width:200px;
-	height:2px;
-	position: absolute;
-	top:50%;
-    left:50%;
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+#line {
+  width: 200px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
 }
